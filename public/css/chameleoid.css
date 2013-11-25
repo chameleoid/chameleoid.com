@@ -7,6 +7,7 @@ html, body {
 
 body {
 	background: #2e3436 -webkit-linear-gradient(top, #3a4244, #172223 150px, #2e3436 500px) repeat-x;
+	line-height: 1.4em;
 }
 
 a {
