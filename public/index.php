@@ -1,5 +1,8 @@
 <?php
-	$mode = $_SERVER['SERVER_NAME'] == 'localhost' ? 'development' : 'production';
+	if (in_array($_SERVER['SERVER_NAME'], ['0.0.0.0', 'localhost', '127.0.0.1']))
+		$mode = 'development';
+	else
+		$mode = 'production';
 
 	$page = basename($_SERVER['REQUEST_URI']) ?: 'index';
 	$file = '../html/' . $page . '.html';
