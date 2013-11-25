@@ -2,11 +2,11 @@
 	$mode = $_SERVER['SERVER_NAME'] == 'localhost' ? 'development' : 'production';
 
 	$page = basename($_SERVER['PATH_INFO']) ?: 'index';
-	$file = 'html/' . $page . '.html';
+	$file = '../html/' . $page . '.html';
 
 	if (!file_exists($file)) {
 		$page = 404;
-		$file = 'html/404.html';
+		$file = '../html/404.html';
 		http_response_code(404);
 	}
 ?>
