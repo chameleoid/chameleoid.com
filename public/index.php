@@ -1,7 +1,7 @@
 <?php
 	$mode = $_SERVER['SERVER_NAME'] == 'localhost' ? 'development' : 'production';
 
-	$page = basename($_SERVER['PATH_INFO']) ?: 'index';
+	$page = basename($_SERVER['REQUEST_URI']) ?: 'index';
 	$file = '../html/' . $page . '.html';
 
 	if (!file_exists($file)) {
