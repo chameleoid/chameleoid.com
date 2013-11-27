@@ -37,9 +37,11 @@
 			<div id="menu">
 				<span id="chameleoid"></span>
 
-				<a href="/"<?=$page == 'index' ? ' class="active"' : '';?>><span>Home</span><span></span></a>
+				<a href="/"<?=$page == 'index' ? ' class="active"' : '';?>><span>Products</span><span></span></a>
 				<a href="/privacy"<?=$page == 'privacy' ? ' class="active"' : '';?>><span>Privacy Policy</span><span></span></a>
 				<!--<a href="/dmca"<?=$page == 'dmca' ? ' class="active"' : '';?>><span>DMCA</span><span></span></a>-->
+				<a href="https://github.com/chameleoid/"><span>GitHub</span><span></span></a>
+				<!--<a href="https://twitter.com/chameleoidhq"><span>Twitter</span><span></span></a>-->
 			</div>
 
 			<div class="content"><?=file_get_contents($file);?></div>
