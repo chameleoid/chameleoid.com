@@ -37,4 +37,4 @@
 <h3>Privacy Policy Changes</h3>
 <p>Although most changes are likely to be minor, Chameleoid may change its Privacy Policy from time to time, and in Chameleoid&#8217;s sole discretion. Chameleoid encourages visitors to frequently check this page for any changes to its Privacy Policy. Your continued use of our sites after any change in this Privacy Policy will constitute your acceptance of such change.</p>
 
-<p><small>Last updated: <?=date('m/d/Y', filemtime(__FILE__));?></small></p>
+<p><small>Last updated: <?=date('m/d/Y', filemtime(__FILE__));?> &mdash; <a href="https://github.com/chameleoid/chameleoid.com/commits/master/pages/products.php">History</a></small></p>
