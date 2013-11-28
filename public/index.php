@@ -6,12 +6,12 @@
 	else
 		$mode = 'production';
 
-	$page = basename($_SERVER['REQUEST_URI']) ?: 'index';
-	$file = '../html/' . $page . '.html';
+	$page = basename($_SERVER['REQUEST_URI']) ?: 'products';
+	$file = '../pages/' . $page . '.php';
 
 	if (!file_exists($file)) {
 		$page = 404;
-		$file = '../html/404.html';
+		$file = '../pages/404.php';
 		http_response_code(404);
 	}
 ?>
@@ -39,14 +39,14 @@
 			<div id="menu">
 				<span id="chameleoid"></span>
 
-				<a href="/"<?=$page == 'index' ? ' class="active"' : '';?>><span>Products</span><span></span></a>
+				<a href="/"<?=$page == 'products' ? ' class="active"' : '';?>><span>Products</span><span></span></a>
 				<a href="/privacy"<?=$page == 'privacy' ? ' class="active"' : '';?>><span>Privacy Policy</span><span></span></a>
 				<!--<a href="/dmca"<?=$page == 'dmca' ? ' class="active"' : '';?>><span>DMCA</span><span></span></a>-->
 				<a href="https://github.com/chameleoid/"><span>GitHub</span><span></span></a>
 				<!--<a href="https://twitter.com/chameleoidhq"><span>Twitter</span><span></span></a>-->
 			</div>
 
-			<div class="content"><?=file_get_contents($file);?></div>
+			<div class="content"><?php include $file;?></div>
 
 			<footer>
 				&copy;2009-<?=date('Y');?> <a href="/">Chameleoid</a>, All rights reserved.
