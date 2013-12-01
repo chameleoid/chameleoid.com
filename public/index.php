@@ -25,6 +25,7 @@
 		<title>Chameleoid</title>
 
 		<style>html, body { background: #2e3436 }</style>
+		<link rel="stylesheet" href="/css/chameleoid.css<?=$mode == 'development' ? '?' : '';?>">
 		<?php if ($mode == 'development') : ?>
 		<script>_pageInit=<?=date('U') + 1;?></script>
 		<script async src="/js/_auto-refresh.js"></script>
@@ -53,7 +54,6 @@
 			</footer>
 		</div>
 
-		<link rel="stylesheet" href="/css/chameleoid.css<?=$mode == 'development' ? '?' : '';?>">
 		<link rel="stylesheet" href="/css/fonts.css<?=$mode == 'development' ? '?' : '';?>">
 	</body>
 </html>
