@@ -10,7 +10,7 @@
 
 <p>Below is our privacy policy which incorporates these goals: (Note, the following privacy policy is available under a <a href="http://creativecommons.org/licenses/by-sa/2.5/">Creative Commons Sharealike</a> license, and should seem familiar to you if you&#8217;ve read <a href="http://automattic.com/">Automattic&#8217;s</a> <a href="http://automattic.com/privacy/">Privacy Policy</a>.)
 
-<p>“<strong>Chameleoid</strong>” operates several websites including <a href="http://www.chameleoid.com/">chameleoid.com</a> and <a href="https://telepathyjs.com/">telepathyjs.com</a>. It is Chameleoid&#8217;s policy to respect your privacy regarding any information we may collect while operating our websites.</p>
+<p>“<strong>Chameleoid</strong>” operates several websites including <a href="http://www.chameleoid.com/">chameleoid.com</a>, <a href="http://ansible.tk/">ansible.tk</a>, and <a href="https://telepathyjs.com/">telepathyjs.com</a>. It is Chameleoid&#8217;s policy to respect your privacy regarding any information we may collect while operating our websites.</p>
 
 <h3>Website Visitors</h3>
 <p>Like most website operators, Chameleoid collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. Chameleoid&#8217;s purpose in collecting non-personally identifying information is to better understand how Chameleoid&#8217;s visitors use its website. From time to time, Chameleoid may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the usage of its website.</p>
