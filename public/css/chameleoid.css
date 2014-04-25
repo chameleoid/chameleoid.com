@@ -14,11 +14,11 @@ a {
 	color: #53aa14;
 	text-decoration: none;
 }
-	a, a span {
+	a, a:before {
 		transition-duration: .15s;
 		transition-property: background, color, width;
 	}
-		a:hover, a:hover span {
+		a:hover, a:hover:before {
 			transition-duration: .5s;
 			color: #bbbab0;
 		}
@@ -42,13 +42,12 @@ h3 {
 	box-shadow: 0 -4px #e7edeb, 0 4px #e7edeb, 0 0 3px 0 #747776, -5px 0 0 0 #bbbab0, 5px 0 0 0 #bbbab0;
 }
 
-.border, #menu a {
+.border, #menu a:before {
 	background: #d0cebc;
 	padding: 5px;
 	border-radius: 12px;
-/*	box-shadow: 0 0 6px -1px #747776;*/
 }
-	.inner, #menu a span, .content {
+	.inner, #menu a:after, .content {
 		background: #e7edeb;
 		border-radius: 8px;
 		box-shadow: 0 0 3px 0 #747776;
@@ -85,7 +84,7 @@ header {
 	height: 109px;
 	background: url(/img/chameleoid.png);
 	margin-left: -392px;
-	z-index: 1;
+	z-index: -1;
 }
 
 #menu {
@@ -94,70 +93,81 @@ header {
 	top: 150px;
 	width: 125px;
 	margin-left: -400px;
-	z-index: 1
+	z-index: 1;
 }
-	#menu a {
-		background: #bbbab0;
-		width: 115px;
-		float: right;
-		display: block;
-		padding: 5px 0 5px 5px;
-		margin-bottom: 10px;
-		border-top-right-radius: 0;
-		border-bottom-right-radius: 0;
-		overflow: hidden;
-		position: relative;
-		box-shadow: -4px 0 6px -4px #747776 inset;
-		font-size: 12px;
-		color: #344;
+	#menu a,
+	#menu a:before,
+	#menu a:after {
+		border-top-right-radius: 0 !important;
+		border-bottom-right-radius: 0 !important;
 	}
-		#menu a span {
-			background: #cdd0cf;
-			border-top-right-radius: 0;
-			border-bottom-right-radius: 0;
-			padding: 0 10px;
-			display: block;
-			height: 20px;
-			line-height: 22px;
-			position: relative;
-			box-shadow: 0 0 3px 0 #747776, -4px 0 6px -4px #747776 inset;
-		}
-			#menu a span + span {
-				position: absolute;
-				top: -5px;
-				left: -5px;
-				right: -5px;
-				padding: 5px 5px 10px;
-				z-index: 5;
-				opacity: 0;
-			}
 
+	#menu a:before,
+	#menu a:after {
+		content: '';
+
+		display: block;
+		position: absolute;
+		z-index: -2;
+
+	}
+
+	#menu a:before {
+		background: #bbbab0;
+		box-shadow: 0 0 3px 0 #747776, -4px 0 6px -4px #747776 inset;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+
+	#menu a:after {
+		background: #cdd0cf;
+		box-shadow: 0 0 3px 0 #747776, -4px 0 6px -4px #747776 inset;
+		top: 5px;
+		left: 5px;
+		right: 0;
+		bottom: 5px;
+	}
+
+	#menu a {
+		position: relative;
+		color: #344;
+		float: right;
+		padding: 5px 15px;
+		margin-bottom: 10px;
+		width: 90px;
+		height: 20px;
+		line-height: 22px;
+		font-size: 12px;
+		overflow: hidden;
+	}
 		#menu a:hover {
-			background: #7ce133;
-			width: 125px;
+			width: 100px;
 			color: #011;
 		}
-			#menu a:hover span, #menu a.active span {
+			#menu a:hover:before {
+				background: #7ce133;
+			}
+
+			#menu a:hover:after, #menu a.active:after {
 				background: #e7edeb;
-				color: #011;
 			}
 
 		#menu a.active {
-			width: 130px;
+			width: 105px;
 			color: #011;
-			background: #d0cebc;
-			background: -webkit-linear-gradient(left, #d0cebc, #d0cebc) transparent;
-			background: -moz-linear-gradient(left, #d0cebc, #d0cebc) transparent;
-			background: linear-gradient(left, #d0cebc, #d0cebc) transparent;
-			box-shadow: none;
 			cursor: default;
 			margin-right: -5px;
-			background-size: 130px 100%;
-			background-repeat: no-repeat;
 		}
-			#menu a.active span {
+			#menu a.active:before {
+				right: 5px;
+				background: #d0cebc;
+				box-shadow: none;
+			}
+
+			#menu a.active:after {
 				box-shadow: 0 0 3px 0 #747776, -3px 0 3px -3px #747776 inset;
-				color: #011;
 			}
 
 		#menu a.disabled {
