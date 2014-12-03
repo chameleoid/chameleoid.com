@@ -1,10 +1,11 @@
 <?php
 	date_default_timezone_set('EST');
 
-	if (in_array($_SERVER['SERVER_NAME'], ['0.0.0.0', 'localhost', '127.0.0.1']))
+	if (in_array($_SERVER['SERVER_NAME'], ['0.0.0.0', 'localhost', '127.0.0.1'])) {
 		$mode = 'development';
-	else
+	} else {
 		$mode = 'production';
+	}
 
 	$page = basename($_SERVER['REQUEST_URI']) ?: 'products';
 	$file = '../pages/' . $page . '.php';
