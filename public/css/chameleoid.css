@@ -193,7 +193,13 @@ footer {
 	font-size: 10px;
 	padding: 10px 15px 30px;
 	text-align: right;
+	overflow: hidden;
 }
+	footer span {
+		float: left;
+		font-size: 16px;
+	}
+
 	footer a {
 		color: inherit;
 	}

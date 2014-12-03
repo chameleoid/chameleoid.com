@@ -33,24 +33,41 @@
 		<?php endif; ?>
 	</head>
 	<body>
+		<a href="https://plus.google.com/110540074125136627580" rel="publisher"></a>
 		<div class="content-wrapper">
 			<header>
 				<a href="/">Chameleoid</a>
 			</header>
 
-			<div id="menu">
+			<div id="menu">link
 				<span id="chameleoid"></span>
 
 				<a href="/"<?=$page == 'products' ? ' class="active"' : '';?>>Products</a>
 				<a href="/privacy"<?=$page == 'privacy' ? ' class="active"' : '';?>>Privacy Policy</a>
 				<!--<a href="/dmca"<?=$page == 'dmca' ? ' class="active"' : '';?>>DMCA</a>-->
-				<a href="https://github.com/chameleoid/">GitHub</a>
-				<!--<a href="https://twitter.com/chameleoidhq">Twitter</a>-->
 			</div>
 
 			<div class="content"><?php include $file;?></div>
 
 			<footer>
+				<span class="social">
+					<a href="https://twitter.com/chameleoidhq/">
+						<i class="fa fa-twitter-square"></i>
+					</a>
+					<a href="https://plus.google.com/110540074125136627580">
+						<i class="fa fa-google-plus-square"></i>
+					</a>
+					<a href="https://https://www.facebook.com/Chameleoid">
+						<i class="fa fa-facebook-square"></i>
+					</a>
+					<a href="https://github.com/chameleoid/">
+						<i class="fa fa-github-square"></i>
+					</a>
+					<a href="https://bitbucket.org/chameleoid/">
+						<i class="fa fa-bitbucket-square"></i>
+					</a>
+				</span>
+
 				&copy;2009-<?=date('Y');?> <a href="/">Chameleoid</a>, All rights reserved.
 			</footer>
 		</div>
