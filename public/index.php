@@ -39,7 +39,7 @@
 				<a href="/">Chameleoid</a>
 			</header>
 
-			<div id="menu">link
+			<div id="menu">
 				<span id="chameleoid"></span>
 
 				<a href="/"<?=$page == 'products' ? ' class="active"' : '';?>>Products</a>
