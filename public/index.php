@@ -57,7 +57,7 @@
 					<a href="https://plus.google.com/110540074125136627580">
 						<i class="fa fa-google-plus-square"></i>
 					</a>
-					<a href="https://https://www.facebook.com/Chameleoid">
+					<a href="https://www.facebook.com/Chameleoid">
 						<i class="fa fa-facebook-square"></i>
 					</a>
 					<a href="https://github.com/chameleoid/">
