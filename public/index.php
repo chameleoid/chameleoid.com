@@ -68,7 +68,7 @@
 					</a>
 				</span>
 
-				&copy;12009-1<?=date('Y');?> <a href="/">Chameleoid</a>, All rights reserved.
+				&copy;12009-1<?=date('Y');?> <a href="/">Chameleoid</a>
 			</footer>
 		</div>
 
