@@ -43,6 +43,7 @@
 				<span id="chameleoid"></span>
 
 				<a href="/"<?=$page == 'products' ? ' class="active"' : '';?>>Products</a>
+				<a href="/conduct"<?=$page == 'conduct' ? ' class="active"' : '';?>>Code of Conduct</a>
 				<a href="/privacy"<?=$page == 'privacy' ? ' class="active"' : '';?>>Privacy Policy</a>
 				<!--<a href="/dmca"<?=$page == 'dmca' ? ' class="active"' : '';?>>DMCA</a>-->
 			</div>
