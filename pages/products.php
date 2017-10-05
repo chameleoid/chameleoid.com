@@ -1,5 +1,5 @@
 <h2>Products & Services</h2>
-Here you can find a list of things we've developed or currently maintain.
+<p>Here you can find a list of things we've developed or currently maintain.</p>
 
 <h3>Telepathy</h3>
 <p>A telepathic password manager which generates passwords using a shared secret.</p>
