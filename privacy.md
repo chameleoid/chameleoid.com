@@ -112,15 +112,6 @@ third party. You acknowledge that such transfers may occur, and that any
 acquirer of Chameleoid may continue to use your personal information as set
 forth in this policy.
 
-### Ads
-Ads appearing on any of our websites may be delivered to users by advertising
-partners, who may set cookies. These cookies allow the ad server to recognize
-your computer each time they send you an online advertisement to compile
-information about you or others who use your computer. This information allows
-ad networks to, among other things, deliver targeted advertisements that they
-believe will be of most interest to you. This Privacy Policy covers the use of
-cookies by Chameleoid and does not cover the use of cookies by any advertisers.
-
 ### Privacy Policy Changes
 Although most changes are likely to be minor, Chameleoid may change its Privacy
 Policy from time to time, and in Chameleoid's sole discretion. Chameleoid
