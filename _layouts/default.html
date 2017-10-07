@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=800, initial-scale=1.0">
+
+		<title>Chameleoid</title>
+
+		<style>html, body { background: #2e3436 }</style>
+		<link rel="stylesheet" href="/assets/css/main.css">
+    <link href="https://plus.google.com/+chameleoid" rel="publisher">
+	</head>
+	<body>
+		<div class="content-wrapper">
+			<header>
+				<a href="/">Chameleoid</a>
+			</header>
+
+			<div id="menu">
+				<span id="chameleoid"></span>
+
+				<a href="/" {% if page.name == 'index.md' %}class="active"{% endif %}>Products</a>
+        <a href="/conduct" {% if page.name == 'conduct.md' %}class="active"{% endif %}>Code of Conduct</a>
+				<a href="/privacy" {% if page.name == 'privacy.md' %}class="active"{% endif %}>Privacy Policy</a>
+				<!--<a href="/dmca">DMCA</a>-->
+			</div>
+
+			<div class="content"> {{ content }} </div>
+
+			<footer>
+				<span class="social">
+					<a href="https://twitter.com/chameleoidhq/">
+						<i class="fa fa-twitter-square"></i>
+					</a>
+					<a href="https://plus.google.com/+Chameleoid">
+						<i class="fa fa-google-plus-square"></i>
+					</a>
+					<a href="https://www.facebook.com/Chameleoid">
+						<i class="fa fa-facebook-square"></i>
+					</a>
+					<a href="https://github.com/chameleoid/">
+						<i class="fa fa-github-square"></i>
+					</a>
+					<a href="https://bitbucket.org/chameleoid/">
+						<i class="fa fa-bitbucket-square"></i>
+					</a>
+				</span>
+
+        &copy;2009-{{ site.time | date: '%Y' }} <a href="/">Chameleoid</a>
+			</footer>
+		</div>
+
+		<link rel="stylesheet" href="/assets/css/fonts.css">
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-45173569-1', 'chameleoid.com');
+			ga('send', 'pageview');
+		</script>
+	</body>
+</html>
