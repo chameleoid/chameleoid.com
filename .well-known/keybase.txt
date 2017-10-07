@@ -145,3 +145,59 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/rummik
 
 ==================================================================
+
+==================================================================
+https://keybase.io/squeakypancakes
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.chameleoid.com
+  * I am squeakypancakes (https://keybase.io/squeakypancakes) on keybase.
+  * I have a public key ASDy0psJWcCg2P2q5W-c-GWKVbGZ1Q2Gb2-JHNHhqq20Qwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f93b3b5b2029b7c24076e06dacfa9720c677847ef028a87c467b80d9d6640fc90a",
+      "host": "keybase.io",
+      "kid": "0120f2d29b0959c0a0d8fdaae56f9cf8658a55b199d50d866f6f891cd1e1aaadb4430a",
+      "uid": "a210512d43240ad3ee5e31b349632719",
+      "username": "squeakypancakes"
+    },
+    "merkle_root": {
+      "ctime": 1507412259,
+      "hash": "d255b4c07d7a045bcca97049bb16ec8d8be747debdf883ccb0b670bb51ac697583b3364df5b2d4fd6fe7b6c7ed5f130691125c2d411fdfc78cc6d748dc9f334e",
+      "hash_meta": "e8a200682ad26c0a0877b32234180f8a5d4dc201b24799a7805a9f9825a1de38",
+      "seqno": 1536474
+    },
+    "service": {
+      "hostname": "www.chameleoid.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.34"
+  },
+  "ctime": 1507412278,
+  "expire_in": 504576000,
+  "prev": "66b56bba1fec6fdff4aa13cde5d0ead6f4d5753625113cf551f935f119f1bf34",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg8tKbCVnAoNj9quVvnPhlilWxmdUNhm9viRzR4aqttEMKp3BheWxvYWTFA1J7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZjkzYjNiNWIyMDI5YjdjMjQwNzZlMDZkYWNmYTk3MjBjNjc3ODQ3ZWYwMjhhODdjNDY3YjgwZDlkNjY0MGZjOTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZjJkMjliMDk1OWMwYTBkOGZkYWFlNTZmOWNmODY1OGE1NWIxOTlkNTBkODY2ZjZmODkxY2QxZTFhYWFkYjQ0MzBhIiwidWlkIjoiYTIxMDUxMmQ0MzI0MGFkM2VlNWUzMWIzNDk2MzI3MTkiLCJ1c2VybmFtZSI6InNxdWVha3lwYW5jYWtlcyJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUwNzQxMjI1OSwiaGFzaCI6ImQyNTViNGMwN2Q3YTA0NWJjY2E5NzA0OWJiMTZlYzhkOGJlNzQ3ZGViZGY4ODNjY2IwYjY3MGJiNTFhYzY5NzU4M2IzMzY0ZGY1YjJkNGZkNmZlN2I2YzdlZDVmMTMwNjkxMTI1YzJkNDExZmRmYzc4Y2M2ZDc0OGRjOWYzMzRlIiwiaGFzaF9tZXRhIjoiZThhMjAwNjgyYWQyNmMwYTA4NzdiMzIyMzQxODBmOGE1ZDRkYzIwMWIyNDc5OWE3ODA1YTlmOTgyNWExZGUzOCIsInNlcW5vIjoxNTM2NDc0fSwic2VydmljZSI6eyJob3N0bmFtZSI6Ind3dy5jaGFtZWxlb2lkLmNvbSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjM0In0sImN0aW1lIjoxNTA3NDEyMjc4LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6IjY2YjU2YmJhMWZlYzZmZGZmNGFhMTNjZGU1ZDBlYWQ2ZjRkNTc1MzYyNTExM2NmNTUxZjkzNWYxMTlmMWJmMzQiLCJzZXFubyI6MTAsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RARix1ZxHsEabDqhK5xrlK5ukA5IcM/wtRyB/W4khJEK/j/t3yhySty771IENbQcUmZSnPQ9W2rMwaMdQrFgwqCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDMj3bibgmQzjMh2CgXKbh1pHYp8rnLVhbYVwT0CJzkxo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/squeakypancakes
+
+==================================================================
