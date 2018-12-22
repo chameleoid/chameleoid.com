@@ -42,3 +42,4 @@ exclude:
   - vendor/ruby/
   - readme.md
   - license.md
+  - shell.nix
