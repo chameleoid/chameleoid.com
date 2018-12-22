@@ -6,5 +6,5 @@ Quickstart:
 ```
 gem install jekyll bundler
 bundle install
-jekyll serve
+bundle exec jekyll serve
 ```
